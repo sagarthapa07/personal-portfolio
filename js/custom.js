@@ -79,10 +79,8 @@ function renderMenu() {
     menu.appendChild(link);
   });
 }
-
 renderMenu();
-
-
+b
 
 // Select elements
 const tabs = document.querySelectorAll(".tab_btn");

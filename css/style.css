@@ -100,7 +100,13 @@ h6 {
   color: #377dff;
   background-color: #f0f1f3;
 }
-
+@media (max-width: 576px) {
+  .hero-one img {
+    max-width: 55%;
+    margin: 0 auto;
+    display: block;
+  }
+}
 /* ==========================================================
    🔘 5. Buttons
 ========================================================== */
@@ -231,6 +237,15 @@ mark {
   font-weight: 700;
   color: #172d51;
 }
+
+@media (max-width: 576px) {
+  .hero-one img {
+    max-width: 55%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 
 /* ==========================================================
    👤 12. About Section (Personal Info + Social Icons)
@@ -485,3 +500,6 @@ mark {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
+
+
+
