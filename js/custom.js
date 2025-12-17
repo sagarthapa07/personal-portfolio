@@ -80,7 +80,6 @@ function renderMenu() {
   });
 }
 renderMenu();
-b
 
 // Select elements
 const tabs = document.querySelectorAll(".tab_btn");
